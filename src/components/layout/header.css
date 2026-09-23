@@ -1,0 +1,38 @@
+.app-header {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #eaeaea;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    padding-bottom: 5px;
+}
+
+.nav-item:hover {
+    color: #3b97e8;
+}
+
+/* ĐOẠN NÀY SẼ TỰ ĐỘNG KÍCH HOẠT KHI ĐÚNG TRANG */
+.nav-item.active {
+    color: #3b97e8; /* Màu xanh nổi bật */
+    border-bottom: 2px solid #3b97e8; /* Thêm đường gạch chân nhỏ bên dưới cho đẹp */
+}

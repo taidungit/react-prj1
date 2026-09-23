@@ -1,0 +1,39 @@
+.app-footer {
+    width: 100%;
+    box-sizing: border-box; /* Đảm bảo padding không làm tràn width 100% */
+    background-color: #ffffff;
+    padding: 12px 30px;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.03);
+    border-top: 1px solid #eaeaea;
+    margin-top: auto; 
+}
+
+.footer-content {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6b7280;
+    font-size: 13px;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px; /* Giảm khoảng cách giữa các link */
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #6b7280;
+    transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+    color: #3b97e8;
+}
