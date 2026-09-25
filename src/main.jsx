@@ -6,6 +6,7 @@ import LoginPage from './pages/login.jsx';
 import './styles/global.css'
 import HomePage from './pages/home.jsx';
 import ErrorPage from './pages/error.jsx';
+import UserPage from './pages/user.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
       },
   {
     path:"/users",
-    element:<h1>Users page</h1>
+    element:<UserPage />
   },
   {
     path:"/products",
